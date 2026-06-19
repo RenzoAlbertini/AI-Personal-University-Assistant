@@ -10,7 +10,7 @@ This repository includes the application code, architecture notes, setup instruc
 
 UI preview:
 
-![AI Study Path Planner UI](docs/images/ui-demo.svg)
+![AI Study Path Planner UI](docs/images/1.png)
 
 Generated output preview:
 
