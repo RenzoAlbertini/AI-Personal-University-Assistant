@@ -151,37 +151,15 @@ Invoke-WebRequest `
 - The app uses Azure Identity and your authenticated Azure CLI/session.
 - For a public hosted demo, use managed identity or secret storage instead of local `az login`.
 
-## Deployment Options
+## Deployment
 
-### Option 1: Static GitHub Portfolio
+Since this architecture relies on Azure AI Foundry endpoints, Azure Identity, and local microservices (A2A architecture), hosting a live demo requires secure credential management. Here are the recommended paths for moving this project to production:
 
-Best for a fast LinkedIn-ready showcase:
-
-- Commit the code.
-- Add screenshots under `docs/images/`.
-- Link this README and [docs/demo-output.md](docs/demo-output.md).
-
-This does not make the app interactive, but it presents the project professionally.
+### Option 1: Static Showcase (GitHub Portfolio)
+The repository includes a static preview of the interactive Streamlit UI under `docs/images/` and sample outputs in `docs/demo-output.md`. This allows visitors to review the generation capabilities directly from GitHub without needing a local environment or Azure session.
 
 ### Option 2: Streamlit Community Cloud
+For a quick web-based demo, the Streamlit interface can be deployed publicly. However, Azure credentials must be securely mapped via Streamlit Secrets, and the backend services must be reachable via public endpoints.
 
-Good for a simple public web demo, but Azure authentication must be configured with secure secrets. The app also needs reachable backend services, so the architecture may need simplification to run as a single Streamlit process or be deployed together with the API.
-
-### Option 3: Azure App Service or Azure Container Apps
-
-Best production-style option. Package the Streamlit UI and API backend, configure Azure credentials securely, and expose a public URL that can be linked from GitHub and LinkedIn.
-
-## Example Use Cases
-
-- Generate a 4-week plan for learning Azure AI agents.
-- Create an intermediate machine learning study roadmap.
-- Produce milestones, exercises, checkpoints, and project ideas for a technical topic.
-
-## Built With
-
-- Python
-- Streamlit
-- FastAPI / Starlette
-- Azure AI Foundry
-- Azure Identity
-- A2A protocol
+### Option 3: Azure App Service / Container Apps
+The enterprise-grade solution. Containerizing the Streamlit UI and the FastAPI backend services using Docker, deploying them to Azure Container Apps, and configuring Managed Identities (MSI) to safely communicate with Azure AI Foundry without hardcoded keys.
