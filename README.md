@@ -13,10 +13,7 @@ UI preview:
 ![AI Study Path Planner UI](docs/images/2.png)
 
 Generated output preview:
-
-## Output example
-
-
+```text
 ### Study plan generated
 
 # Intermediate Personal Finance Management & Conscious Investing Study Plan
@@ -111,6 +108,7 @@ In today’s world, financial literacy can directly impact your quality of life 
 - Draft a personal financial plan
 - Review with mentor or peer
 
+```
 ---
 
 ## Final Notes
