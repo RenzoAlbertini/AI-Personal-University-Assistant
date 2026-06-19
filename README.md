@@ -12,8 +12,7 @@ UI preview:
 
 ![AI Study Path Planner UI](docs/images/2.png)
 
-Generated output preview:
-<pre>
+<pre><code>
 ### Study plan generated
 
 # Intermediate Personal Finance Management & Conscious Investing Study Plan
@@ -107,8 +106,7 @@ In today’s world, financial literacy can directly impact your quality of life 
 - Read: How to Build a Long-Term Portfolio (Fidelity Investments → https://www.fidelity.com)
 - Draft a personal financial plan
 - Review with mentor or peer
-
-</pre>
+</code></pre>
 ---
 
 ## Final Notes
