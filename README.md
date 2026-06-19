@@ -26,73 +26,73 @@ Generated output preview:
 
 ## Introduction
 
-Personal finance management and conscious investing are essential skills for achieving financial stability and building long-term wealth. Understanding how to budget effectively, save consistently, and make informed investment decisions allows you to take control of your financial future.
+Personal finance management and conscious investing are essential skills for achieving financial stability and long-term wealth. Understanding how to budget effectively, save consistently, and make thoughtful investment decisions enables you to take control of your financial future.
 
-In today’s world, financial literacy plays a crucial role in improving life quality and expanding opportunities. Developing these skills is a fundamental step toward financial independence and smarter long-term decision-making.
+In today’s world, financial literacy can directly impact your quality of life and opportunities. Learning these skills is an important step toward independence and smarter financial decisions.
 
 ---
 
 ## Week 1: Foundations of Personal Finance
-**Goal:** Understand core concepts of personal finance and begin tracking your money.
+**Goal:** Understand core concepts of managing personal finances and track your money.
 
 ### Topics Covered
 - What is personal finance?
-- Importance of financial literacy (National Endowment for Financial Education)
+- Importance of financial literacy (National Endowment for Financial Education → https://www.nefe.org)
 - Income vs expenses
 - Creating and maintaining a simple budget
 
 ### Activities
-- Read: “Personal Finance Basics” (Investopedia)
-- Watch: Budgeting 101 (Khan Academy)
+- Read: Personal Finance Basics (Investopedia → https://www.investopedia.com)
+- Watch: Budgeting 101 (Khan Academy → https://www.khanacademy.org)
 - Exercise: Track all expenses for one week using a spreadsheet or budgeting app
 
 ---
 
 ## Week 2: Saving Strategies & Emergency Funds
-**Goal:** Learn effective saving techniques and understand emergency funds.
+**Goal:** Learn effective saving methods and understand the role of emergency funds.
 
 ### Topics Covered
-- Importance of saving: short-term vs long-term goals
+- Short-term vs long-term financial goals
 - Saving strategies (automatic transfers, percentage-based saving)
-- Building an emergency fund (Consumer Financial Protection Bureau)
-- Basics of banking (interest rates, account types)
+- Emergency funds (Consumer Financial Protection Bureau → https://www.consumerfinance.gov)
+- Smart banking (interest rates, account types)
 
 ### Activities
-- Read: “Saving Money: Strategies” (NerdWallet)
-- Set up an automatic savings plan or increase your savings rate
+- Read: Saving Money Strategies (NerdWallet → https://www.nerdwallet.com)
+- Set up an automatic savings plan or increase savings rate
 - Calculate your emergency fund target based on monthly expenses
 
 ---
 
 ## Week 3: Conscious Spending and Debt Management
-**Goal:** Learn to manage spending habits and handle debt responsibly.
+**Goal:** Learn how to manage spending and handle debt responsibly.
 
 ### Topics Covered
-- Needs vs wants analysis (Federal Trade Commission)
+- Needs vs wants analysis (Federal Trade Commission → https://www.ftc.gov)
 - Reducing unnecessary expenses
 - Types of debt (credit cards, loans, mortgages)
 - Debt repayment strategies (snowball vs avalanche method)
 
 ### Activities
-- Read: “How To Manage Debt” (MoneyHelper UK)
-- Create a needs vs wants breakdown of your expenses
-- Choose and apply a debt repayment strategy
+- Read: How to Manage Debt (MoneyHelper UK → https://www.moneyhelper.org.uk)
+- Create a needs vs wants spending breakdown
+- Apply a debt repayment strategy
 
 ---
 
 ## Week 4: Introduction to Conscious Investing
-**Goal:** Understand basic investment instruments and responsible investing principles.
+**Goal:** Understand basic investment instruments and responsible investing.
 
 ### Topics Covered
-- What is investing? Stocks, bonds, ETFs
-- Risk tolerance and time horizon (SEC Investor.gov)
-- ESG investing (Environmental, Social, Governance) (Morningstar)
+- Stocks, bonds, ETFs
+- Risk tolerance and time horizon (SEC Investor Education → https://www.investor.gov)
+- ESG investing (Morningstar → https://www.morningstar.com)
 - How to start investing safely
 
 ### Activities
-- Read: “Investing 101: A Beginner’s Guide” (Robinhood Learn)
-- Research 2–3 ESG funds and analyze one in detail
-- Assess your personal risk tolerance via online questionnaires
+- Read: Investing 101 (Robinhood Learn → https://learn.robinhood.com)
+- Research 2–3 ESG funds
+- Assess your personal risk tolerance via questionnaires
 
 ---
 
@@ -100,25 +100,23 @@ In today’s world, financial literacy plays a crucial role in improving life qu
 **Goal:** Combine all concepts into a personal financial roadmap.
 
 ### Topics Covered
-- Setting financial and investment goals
-- Building a diversified portfolio
-- Reviewing and adjusting budget, savings, and investments
-- Tracking long-term progress
+- Financial goal setting
+- Diversified portfolio creation
+- Budget, savings, and investment tracking
+- Long-term planning and review
 
 ### Activities
-- Read: “How To Build a Long-Term Portfolio” (Fidelity Investments)
-- Draft your personal financial plan (budget, savings, investments)
-- Share and review your plan with a mentor or peer
+- Read: How to Build a Long-Term Portfolio (Fidelity Investments → https://www.fidelity.com)
+- Draft a personal financial plan
+- Review with mentor or peer
 
 ---
 
 ## Final Notes
 
-Stay consistent and review your progress weekly. Financial literacy is a long-term skill that develops over time.
+Stay consistent and review your progress weekly. Financial literacy is a long-term skill that builds over time.
 
-Completing this 5-week journey will give you practical tools to manage money more effectively and make more conscious investment decisions.
-
-More generated examples are available in [docs/demo-output.md](docs/demo-output.md).
+This 5-week path will give you practical tools to manage money effectively and make more conscious investment decisions.
 
 ## Features
 
