@@ -1,6 +1,6 @@
 # AI Study Path Planner
 
-An AI-powered study planning app built with **Azure AI Foundry**, **A2A agent communication**, **FastAPI/Starlette**, and **Streamlit**.
+I extended an **Azure AI Foundry** project into a full AI application for generating personalized study plans, featuring **agent-to-agent communication via A2A**, a **FastAPI/Starlette** backend, and a **Streamlit** UI.
 
 The app turns a learning goal into a structured study path with milestones, exercises, checkpoints, and a final mini project. It includes a Streamlit interface, a direct Study Planner endpoint, and a routing agent that can communicate with remote A2A agents.
 
