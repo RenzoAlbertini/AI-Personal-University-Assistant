@@ -164,6 +164,118 @@ Study Plan
 
 Career and web-search outputs are merged into the Explanation section so the final answer stays readable.
 
+## Sample Outputs
+
+The exact response changes depending on the deployed model, but these examples show the kind of structured output the assistant produces.
+
+### Example 1: Explain + Exam + Study Plan
+
+**Prompt**
+
+```text
+Explain overfitting, give me an exam question, and tell me how to study it in 3 days.
+```
+
+**Detected intents**
+
+```text
+Explanation + Exam Question + Study Plan
+```
+
+**Output preview**
+
+```text
+### Explanation
+
+Overfitting happens when a model learns the training data too closely, including
+noise and outliers, instead of learning the general pattern. The model may perform
+very well on training data but poorly on new data.
+
+### Exam Question
+
+Define overfitting in machine learning. Give one real-world scenario where it can
+happen and explain one method to prevent it.
+
+### Study Plan
+
+Day 1: Understand the concept
+- Write the definition in your own words.
+- Compare overfitting and underfitting with a simple diagram.
+- Checkpoint: explain why high training accuracy can still be misleading.
+
+Day 2: Identify and prevent overfitting
+- Study validation sets, cross-validation, regularization, and early stopping.
+- Practice reading train/test performance curves.
+
+Day 3: Apply it
+- Train a simple model, intentionally overfit it, then reduce overfitting.
+- Final checkpoint: explain what changed and why.
+```
+
+### Example 2: Career Goal + Test Question + Roadmap
+
+**Prompt**
+
+```text
+I want to become an AI Engineer. Explain what I should study, test me with a question, and give me a roadmap.
+```
+
+**Detected intents**
+
+```text
+Explanation + Exam Question + Study Plan
+```
+
+**Output preview**
+
+```text
+### Explanation
+
+To become an AI Engineer, focus on Python, data handling, machine learning,
+model evaluation, neural networks, cloud deployment, and version control.
+Strong foundations in probability, linear algebra, and practical model-building
+are especially important.
+
+### Exam Question
+
+Explain the difference between supervised and unsupervised learning. Provide one
+example use case for each.
+
+### Study Plan
+
+Week 1: Python and data fundamentals
+Week 2: Machine learning basics and evaluation metrics
+Week 3: Neural networks and deep learning frameworks
+Week 4: Deployment, GitHub portfolio, and a small end-to-end AI project
+
+Portfolio ideas:
+- Image classifier deployed with Streamlit
+- Resume/CV analyzer with Azure AI
+- Retrieval-based study assistant with citations
+```
+
+### Example 3: Strict Oral Exam
+
+**Prompt**
+
+```text
+Start a difficult oral exam on neural networks and correct me strictly.
+```
+
+**Output preview**
+
+```text
+### Exam Question
+
+Question 1/5
+
+Explain the role of activation functions in a feedforward neural network.
+What would happen if hidden layers used no activation function?
+
+Reply directly in the chat and the assistant will evaluate your answer with a
+score, feedback, weak topics, and a model answer.
+```
+
 ## Local State
 
 The app stores lightweight memory under:
@@ -179,4 +291,3 @@ This file is generated automatically and ignored by Git.
 - `.env`, logs, local memory, virtual environments, and cache folders are ignored.
 - Keep `config/.env.example` updated when adding new configuration values.
 - Use `main.py` as the primary entry point.
-
