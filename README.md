@@ -6,6 +6,10 @@ A unified AI assistant for students, built with Python, Streamlit, Azure AI Foun
 
 The app exposes one main chat interface. Users can ask naturally for explanations, exam practice, study planning, web research with sources, or career guidance. The UI detects all relevant intents, executes them in sequence, and merges the result into one structured response.
 
+## 📄 Demo Outputs
+
+👉 [Open demo-output.md](./docs/demo-output.md)
+
 ## Features
 
 - Unified chat-first Streamlit UI.
