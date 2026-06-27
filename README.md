@@ -31,45 +31,47 @@ The project follows a clean multi-agent assistant architecture. The user only se
 
 ```mermaid
 flowchart TD
-    User["Student"] --> UI["Streamlit UI<br/>ui/app.py"]
-    UI --> API["Backend API<br/>single /message endpoint"]
-    API --> Router["Intent Router<br/>core/router.py"]
 
-    subgraph Capabilities["Agent and Tool Layer"]
-        Tutor["Tutor Agent<br/>explanations"]
-        Exam["Exam Simulator<br/>questions + evaluation"]
-        Planner["Study Planner<br/>weekly plans"]
-        Career["Career Advisor<br/>skills + projects"]
-        Search["Web Search Tool<br/>sources + citations"]
+    User["Student"] --> UI["Streamlit UI"]
+    UI --> API["API Gateway /message"]
+
+    API --> Router["Intent Router"]
+
+    Router --> Orchestrator["Multi-Agent Orchestrator"]
+
+    %% ================= MULTI AGENT LAYER =================
+    subgraph Agents["Multi-Agent System"]
+
+        Tutor["Tutor Agent"]
+        Exam["Exam Agent"]
+        Planner["Study Planner Agent"]
+        Career["Career Agent"]
+        Search["Web Search Agent"]
     end
 
-    Router --> Tutor
-    Router --> Exam
-    Router --> Planner
-    Router --> Career
-    Router --> Search
+    Orchestrator --> Tutor
+    Orchestrator --> Exam
+    Orchestrator --> Planner
+    Orchestrator --> Career
+    Orchestrator --> Search
 
-    Tutor --> Composer["Response Composer<br/>core/response_composer.py"]
+    %% ================= RESPONSE FUSION =================
+    Tutor --> Composer["Response Composer"]
     Exam --> Composer
     Planner --> Composer
     Career --> Composer
     Search --> Composer
 
-    Composer --> Answer["Unified Answer<br/>Explanation + Exam Question + Study Plan"]
+    Composer --> Answer["Final Unified Answer"]
+
     Answer --> UI
 
-    subgraph Integrations["External Integrations"]
-        Foundry["Azure AI Foundry<br/>Responses API"]
-        FoundrySearch["Azure AI Foundry<br/>Web Search Tool"]
-        A2A["A2A-compatible<br/>remote agents"]
-    end
-
-    API -. compatible with .-> A2A
-    Tutor -. uses .-> Foundry
-    Exam -. uses .-> Foundry
-    Planner -. uses .-> Foundry
-    Career -. uses .-> Foundry
-    Search -. uses .-> FoundrySearch
+    %% ================= EXTERNAL SYSTEMS =================
+    Tutor -.-> Foundry["Azure Foundry LLM"]
+    Exam -.-> Foundry
+    Planner -.-> Foundry
+    Career -.-> Foundry
+    Search -.-> Web["Web Search API"]
 ```
 
 ### Component Responsibilities
